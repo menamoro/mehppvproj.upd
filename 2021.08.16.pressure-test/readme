@@ -1,0 +1,7 @@
+Hi sir,
+
+This file is just testing the pressure algorithm. I've tested it in my machine but after many iterations I found that it requires a really long equilibration time to reach a stable pressure, which is why I want to test it on your machine. To run please do:
+
+$ pypresso pressure-test.py > pressure-test.log
+
+so I can retrieve the result of the simulation. Thank you!

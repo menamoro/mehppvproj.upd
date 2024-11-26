@@ -1,0 +1,753 @@
+Type   V1         V2        V3        V4               description
+001   0.000     0.000     0.300     0.0        HC-CT-CT-HC     hydrocarbon *new* 11/99
+001   0.000     0.000     0.300     0.0        HC-C -C -HC
+001   0.000     0.000     0.300     0.0        HC-C=-C=-HC
+001   0.000     0.000     0.300     0.0        CT-C=-C=-CT
+001   0.000     0.000     0.300     0.0        CT-C=-C=-HC
+002   0.000     0.000     0.300     0.0        HC-CT-CT-CT     hydrocarbon *new* 11/99
+002   0.000     0.000     0.300     0.0        HC-CT-CT-CO     acetal
+002   0.000     0.000     0.300     0.0        HC-CO-CT-CT     acetal
+003   1.300    -0.050     0.200     0.0        CT-CT-CT-CT     hydrocarbon *new* 11/99
+003   1.300    -0.050     0.200     0.0        CT-CT-CT-CO     hydrocarbon *new* 11/99
+004
+005   0.0       0.0       0.468     0.0        HC-CT-CT-OH     alcohols, ethers AA
+005   0.0       0.0       0.468     0.0        HC-CT-CT-OS     alcohols, ethers AA
+005   0.0       0.0       0.468     0.0        HC-CT-CO-OS     alcohols, ethers AA
+006   1.711    -0.500     0.663     0.0        CT-CT-CT-O?     alcohols, ethers AA
+006   1.711    -0.500     0.663     0.0        CT-CT-CT-OS     alcohols, ethers AA
+006   1.711    -0.500     0.663     0.0        CT-CT-CO-O?     alcohols, ethers AA
+005   0.0       0.0       0.468     0.0        HC-CM-CT-O?     alcohols, ethers AA
+006   1.711    -0.500     0.663     0.0        CT-CM-CT-O?     alcohols, ethers AA
+007  -1.552     0.0       0.000     0.0        CT-CT-CT-OH     polyols  AA
+008   0.0       0.0       0.3524    0.0        HC-CT-OH-HO     alcohols AA 5/02 modified from 0.45
+009  -0.356    -0.174     0.492     0.0        CT-CT-OH-HO     alcohols AA
+010   9.508     0.00      0.000     0.0        OH-CT-CT-OH     diols only  AA
+011  12.234     0.00      0.000     0.0        OH-CT-CT-OH     triols only AA
+012   0.0       0.0       0.76      0.0        HC-CT-OS-C?     ethers AA
+012   0.0       0.0       0.76      0.0        HC-CT-OS-CA     ethers AA
+012   0.0       0.0       0.76      0.0        HC-CT-OS-CM     ethers AA
+012   0.0       0.0       0.76      0.0        HC-CM-OS-CT     ethers AA
+012   0.0       0.0       0.76      0.0        HC-CO-OS-CT     ethers AA
+012   0.0       0.0       0.76      0.0        HC-CT-OS-CO     ethers AA
+013   0.650    -0.250     0.670     0.0        CT-OS-CT-CT     ethers AA
+013   0.650    -0.250     0.670     0.0        CT-OS-CM-CT     ethers AA
+013   0.650    -0.250     0.670     0.0        CT-OS-CO-CT     ethers AA
+014  -0.521    -2.018     1.996     0.0        CT-OS-CT-O?     acetals AA (Sugars:see 150-155)
+015   8.000     0.0       0.0       0.0        NT-CT-CT-OH     2-aminoethanol 6-31G* fit - wj
+016  -0.550     0.0       0.0       0.0        OS-CT-CT-OS     polyethers, crown ethers
+017   0.0       3.0       0.0       0.0        CT-OS-CA-CA     anisole
+018   0.0       0.0      -0.372     0.0        CM-C=-C=-CT     diene - generic
+018   0.0       0.0      -0.372     0.0        CM-C=-C=-HC     diene - generic
+019   1.423     4.055     0.858     0.0        CM-C=-C=-CM     diene C=C-C=C
+020   0.000     0.000     0.000     0.0        HC-CT-CA-CA     ethyl benzene, toluene
+020   0.000     0.000     0.000     0.0        HC-CT-CW-??     aromatics
+020   0.000     0.000     0.000     0.0        HC-CT-CV-??     aromatics
+020   0.000     0.000     0.000     0.0        HC-CT-CR-??     aromatics
+020   0.000     0.000     0.000     0.0        HC-CT-CS-??     aromatics
+020   0.000     0.000     0.000     0.0        HC-CT-CQ-??     aromatics
+020   0.000     0.000     0.000     0.0        HC-CT-CU-??     aromatics
+020   0.000     0.000     0.000     0.0        HC-CT-CK-??     aromatics
+020   0.000     0.000     0.000     0.0        HC-CT-C*-??     aromatics
+021   0.000     0.000     0.000     0.0        CT-CT-CA-CA     ethyl benzene
+021   0.000     0.000     0.000     0.0        CT-CT-CW-??     aromatics
+021   0.000     0.000     0.000     0.0        CT-CT-CV-??     aromatics
+021   0.000     0.000     0.000     0.0        CT-CT-CR-??     aromatics
+021   0.000     0.000     0.000     0.0        CT-CT-CS-??     aromatics
+021   0.000     0.000     0.000     0.0        CT-CT-CQ-??     aromatics
+021   0.000     0.000     0.000     0.0        CT-CT-CU-??     aromatics
+021   0.000     0.000     0.000     0.0        CT-CT-CK-??     aromatics
+021   0.000     0.000     0.000     0.0        CT-CT-C*-??     aromatics
+021   0.000     0.000     0.000     0.0        O?-CT-CA-CA     benzyl alcohols & ethers
+021   0.000     0.000     0.000     0.0        C?-CT-NA-C?     heterocycles
+021   0.000     0.000     0.000     0.0        H?-CT-NA-C?     heterocycles
+021   0.000     0.000     0.000     0.0        C?-CT-N*-C?     heterocycles
+021   0.000     0.000     0.000     0.0        H?-CT-N*-C?     heterocycles
+021   0.000     0.000     0.000     0.0        O -C -CR-O?     heterocycles
+021   0.000     0.000     0.000     0.0        O -C -CR-N?     heterocycles
+021   0.000     0.000     0.000     0.0        CA-CA-CT-N?     aromatics
+021   0.000     0.000     0.000     0.0        CT-Si-CT-HC     tentative
+021   0.000     0.000     0.000     0.0        OS-Si-CT-HC     tentative
+021   0.000     0.000     0.000     0.0        OS-Si-OS-Si     tentative
+021   0.000     0.000     0.000     0.0        Si-OS-Si-CT     tentative
+021   0.000     0.000     0.000     0.0        ??-Zn-N -??     JACS 113, 8262 (91)
+021   0.000     0.000     0.000     0.0        ??-Zn-O -??     JACS 113, 8262 (91)
+022   0.000     0.000     0.462     0.0        HC-CT-CT-CA     ethyl benzene
+022   0.000     0.000     0.462     0.0        HC-CT-CT-CW     aromatics
+022   0.000     0.000     0.462     0.0        HC-CT-CT-CV     aromatics
+022   0.000     0.000     0.462     0.0        HC-CT-CT-CR     aromatics
+022   0.000     0.000     0.462     0.0        HC-CT-CT-CS     aromatics
+022   0.000     0.000     0.462     0.0        HC-CT-CT-CQ     aromatics
+022   0.000     0.000     0.462     0.0        HC-CT-CT-CU     aromatics
+022   0.000     0.000     0.462     0.0        HC-CT-CT-CK     aromatics
+022   0.000     0.000     0.462     0.0        HC-CT-CT-C*     aromatics
+023   0.000    -7.414     1.705     0.0        CT-S -S -CT     disulfide all-atom
+024   0.000     0.000     0.558     0.0        HC-CT-S -S      disulfide all-atom
+025   1.941    -0.836     0.935     0.0        CT-CT-S -S      disulfide all-atom
+026   0.000     0.000     0.480     0.0        HC-CT-SH-HS     thiol all-atom  (mod 11/99)
+027  -0.759    -0.282     0.680     0.0        CT-CT-SH-HS     thiol all-atom  (mod 11/99)
+028   0.000     0.000     0.452     0.0        HC-CT-CT-SH     thiol all-atom
+028   0.000     0.000     0.452     0.0        HC-CT-CT-SY
+028   0.000     0.000     0.452     0.0        HC-CT-CT-S      sulfide all-atom
+029   1.262    -0.198     0.465     0.0        CT-CT-CT-SH     thiol all-atom  (mod 11/99)
+029   1.262    -0.198     0.465     0.0        CT-CT-CT-SY                     (mod 11/99)
+030   0.000     0.000     0.400     0.0        HC-CT-NT-H      amine all-atom See also 198.
+031  -1.013    -0.709     0.473     0.0        HC-CT-CT-NT     amine all-atom
+032  -0.190    -0.417     0.418     0.0        CT-CT-NT-H      amine all-atom See 197.
+032  -0.190    -0.417     0.418     0.0        CT-CT-N2-H      guanidinium
+032  -0.190    -0.417     0.418     0.0        CT-CT-N2-H3     guanidinium
+033   2.392    -0.674     0.550     0.0        CT-CT-CT-NT     amine all-atom
+034   0.000     1.682     0.000     0.0        HO-OH-CA-CA     phenol all-atom
+035   0.845    -0.962     0.713     0.0        N -CT-CT-CT     Chi-1 peptides AA
+035   0.845    -0.962     0.713     0.0        N -CT-CT-C*     Chi-1 peptide
+035   0.845    -0.962     0.713     0.0        N -CT-CT-CA     Chi-1 peptides AA
+036  -2.365     0.912    -0.850     0.0        C -N -CT-C      Phi  peptides AA
+037   1.816     1.222     1.581     0.0        N -CT-C -N      Psi  peptides AA
+038   0.0       0.462     0.0       0.0        C -N -CT-CT     Phi' peptides AA
+039   1.173     0.189    -1.200     0.0        CT-CT-C -N      Psi' peptides AA
+040   0.0       0.0       0.0       0.0        C -N -CT-HC     Phi" peptides AA
+041   0.000     0.000     0.000     0.0        HC-CT-C -N      Psi" peptides AA, all amides
+041   0.000     0.000     0.000     0.0        HC-CM-C -N
+041   0.000     0.000     0.000     0.0        HC-CT-C -NM
+041   0.000     0.000     0.000     0.0        HC-CM-C -NM
+042   0.000     0.000     0.000     0.0        H -N -CT-??     peptides
+042   0.000     0.000     0.000     0.0        H -N -CT-CT     peptides
+042   0.000     0.000     0.000     0.0        H -N -CT-C      peptides
+043   0.000     0.000     0.000     0.0        ??-CT-C -O      peptides
+043   0.000     0.000     0.000     0.0        CT-CT-C -O      peptides
+043   0.000     0.000     0.000     0.0        N -CT-C -O      peptides
+044   0.000     4.900     0.000     0.0        CT-C -N -H      amides
+044   0.000     4.900     0.000     0.0        CM-C -N -H      amides
+044   0.000     4.900     0.000     0.0        HC-C -N -H      amides
+044   0.000     4.900     0.000     0.0        CT-C -NM-CT     tert. amides 2/29/04
+044   0.000     4.900     0.000     0.0        O -C -NM-CT     tert. amides 2/29/04
+045   2.300     6.089     0.000     0.0        CT-C -N -CT     amides - V1 changed to 2.3
+045   2.300     6.089     0.000     0.0        CT-C -N -CA
+045   2.300     6.089     0.000     0.0        HC-C -N -CT     amides - V1 changed to 2.3
+046   0.000     4.900     0.000     0.0        O -C -N -H      amides   wlj 6/20/97
+047   0.000     6.089     0.000     0.0        O -C -N -CT     amides
+047   0.000     6.089     0.000     0.0        O -C -N -CA     amides
+047   0.000     6.089     0.000     0.0        O -C -N -CM     amides
+044   0.000     4.900     0.000     0.0        N -C -N -H      imides
+045   2.300     6.089     0.000     0.0        N -C -N -C      imides
+048   0.000     0.000     0.000     0.0        CT-N -CT-HC     tert. amide
+048   0.000     0.000     0.000     0.0        CA-N -CT-HC      "
+048   0.000     0.000     0.000     0.0        CT-NM-CT-HC     tert. amide
+048   0.000     0.000     0.000     0.0        CA-NM-CT-HC      "
+049   0.000     1.100     0.000     0.0        C?-CA-SH-HS     aromatic thiol
+049   0.000     1.100     0.000     0.0        CA-CA-SH-HS     aromatic thiol
+050  -3.000     0.000     0.000     0.0        N?-CA-SH-HS      "
+051   0.000     0.000     0.647     0.0        HC-CT-S -CT     sulfide all-atom
+051   0.000     0.000     0.647     0.0        HC-CT-S -CA     sulfide all-atom
+052   2.619    -0.620     0.258     0.0        CT-CT-CT-S      sulfide all-atom
+053   0.925    -0.576     0.677     0.0        CT-CT-S -CT     sulfide all-atom
+054   0.000     3.900     0.000     0.0        H -N2-CA-N2     guanidinium ion
+054   0.000     3.900     0.000     0.0        H -N2-CA-CA     guanidinium ion
+055   0.000     7.936     0.000     0.0        CT-N2-CA-N2     methylguanidinium ion
+056   0.000     0.000     0.177     0.0        HC-CT-N2-CA     methylguanidinium ion
+057   0.000     0.000     0.000     0.0        HC-CT-N2-H      methylguanidinium ion
+058   1.829     0.243    -0.498     0.0        CT-CT-N2-CA     ethylguanidinium ion
+059   0.000     0.000    -0.582     0.0        HC-CT-CT-N2     ethylguanidinium ion
+060   0.000     0.000    -0.139     0.0        C -N -CT-HC     N-methylformamide
+061   0.000     0.000     0.000     0.0        HC-CT-N -H      N-methylformamide
+062  -1.396    -0.427     0.000     0.0        C -N -CT-CT     N-ethylformamide
+063   0.000     0.000     0.000     0.0        H -N -CT-CT     N-ethylformamide
+064   0.000     0.000     0.464     0.0        N -CT-CT-HC     N-ethylformamide
+065   1.964     0.000     0.659     0.0        N -CT-CT-CT     N-propylformamide
+060   0.000     0.000    -0.139     0.0        C -NM-CT-HC     tertiary amide
+062  -1.396    -0.427     0.000     0.0        C -NM-CT-CT     tertiary amide
+064   0.000     0.000     0.464     0.0        NM-CT-CT-HC     tertiary amide
+065   1.964     0.000     0.659     0.0        NM-CT-CT-CT     tertiary amide
+066   2.000     0.000     0.0       0.0        CM-CM-C -NM     tertiary amide
+066   2.000     0.000     0.0       0.0        CM-CM-C -N      vinyl amides
+067   0.000     0.000     0.000     0.0        HC-CT-C -O      all carbonyls
+067   0.000     0.000     0.000     0.0        HC-C -C -O
+067   0.000     0.000     0.000     0.0        HC-CM-C -O
+068   3.250    -0.402    -0.136     0.0        CT-CT-C -N      propanamide
+069   0.000     1.166     0.000     0.0        CT-CT-C -O      propanamide
+070   0.000     0.000    -0.100     0.0        HC-CT-CT-C      all carbonyls
+071  -2.060    -0.313     0.315     0.0        C -CT-CT-CT     butanamide
+072   6.280    -1.467     2.030     0.0        N -CT-CT-OH     Chi for Ser & Thr
+073
+074  -6.180     0.000     0.000     0.0        C -CT-CT-OH     Chi for Ser & Thr
+075
+076   1.428     0.086     0.029     0.0        N -CT-CT-S?     Chi for Cys (mod 11/99)
+077
+078  -4.344    -1.714     0.000     0.0        C -CT-CT-S?     Chi for Cys (mod 11/99)
+079
+080   0.000     0.000    -0.480     0.0        HC-CT-C*-CW     3-methylindole
+081   0.000     0.000     0.000     0.0        HC-CT-C*-CB     3-methylindole
+082  -0.714     0.000     0.000     0.0        CT-CT-C*-CW     3-ethylindole
+083   0.000     0.000     0.000     0.0        CT-CT-C*-CB     3-ethylindole
+084   0.000     0.000     0.419     0.0        HC-CT-CC-N?     HID, HIE, HIP, 5-ethylimidazole
+085   2.366    -0.262     0.505     0.0        CT-CT-CC-N?       "
+086   0.000     0.000     0.261     0.0        HC-CT-N3-H      ammonium ion all-atom
+087   0.000     0.000     0.347     0.0        CT-CT-N3-H      ammonium ion all-atom
+088   0.000     0.000     0.384     0.0        HC-CT-CT-N3     ammonium ion all-atom
+089   2.732    -0.229     0.485     0.0        CT-CT-CT-N3     ammonium ion all-atom
+090   0.000     0.000     0.000     0.0        HC-CT-NO-ON     nitro compounds
+091   0.000     0.820     0.000     0.0        ?T-CT-C -O      carboxylate ?=C,N
+091   0.000     0.820     0.000     0.0        ?T-CT-C -O2     carboxylate ?=C,N
+092   0.000     0.000    -0.225     0.0        HC-CT-CT-NO     nitroethane
+093  -3.185    -0.825     0.493     0.0        CT-CT-CT-C      carboxylate ion
+094   0.0       0.0       0.0       0.0        HC-CT-C -O2     caboxylates
+094   0.0       0.0       0.0       0.0        HC-CT-C -OH     acids
+095   0.000     0.546     0.000     0.0        CT-CT-C -O      RCOOH acid
+095   0.000     0.546     0.000     0.0        CA-CT-C -O      RCOOH acid
+096   1.000     0.546     0.450     0.0        CT-CT-C -OH     RCOOH acid
+097   5.260     0.820     0.0       0.0        NT-CT-C -OH     neutral amino acid
+098  -2.589    -1.123     0.270     0.0        HC-CT-OH-HO     axial cyclohexanol
+099
+100   0.0       0.0       0.0       0.0              Dummy      Leave Blank
+101  -0.550     0.000     1.000     0.0        C -CT-CT-C      dicarboxylic acid
+102   0.000     5.500     0.00      0.0        O -C -OH-HO     carboxylic acid - aliphatic
+103   1.500     5.500     0.00      0.0        CT-C -OH-HO     carboxylic acid - aliphatic
+103   1.500     5.500     0.00      0.0        HC-C -OH-HO     carboxylic acid - aliphatic
+104   0.0       0.0       0.074     0.0        C -CT-CT-HC     dicarboxylic acid
+105  -0.750    -0.550    -0.250     0.0        CT-CT-C -O      dicarboxylic acid
+106   0.0       1.412     0.00      0.0        CT-CT-C -OH     dicarboxylic acid
+107  -1.737     1.251    -3.501     0.0        CT-N -CT-C      Proline (fit to AM1)
+108   4.753    -0.734     0.00      0.0        CT-N -CT-CT     "   JT-R 2/10/97
+109   2.859     2.058    -11.266    0.0        CT-CT-N -CT     "
+107  -1.737     1.251    -3.501     0.0        CT-NM-CT-C
+108   4.753    -0.734     0.00      0.0        CT-NM-CT-CT
+109   2.859     2.058    -11.266    0.0        CT-CT-NM-CT
+110   0.0      -1.0       0.00      0.0        CT-CT-C+-CT     carbocation
+110   0.0      -1.0       0.00      0.0        CT-CT-C+-HC     carbocation
+111   0.0       0.0       0.275     0.0        HC-CT-C -CT     ketone
+112   0.0       0.0       0.360     0.0        HC-CT-C -HC     aldehyde
+112   0.0       0.0       0.360     0.0        HC-CT-C -F      acyl halide
+112   0.0       0.0       0.360     0.0        HC-CT-C -Cl     acyl halide
+112   0.0       0.0       0.360     0.0        HC-CT-C -Br     acyl halide
+113   0.0       0.0       0.0       0.0        CT-CT-C -F      acyl halide
+113   0.0       0.0       0.0       0.0        CT-CT-C -Cl     acyl halide
+113   0.0       0.0       0.0       0.0        CT-CT-C -Br     acyl halide
+114  -0.277     1.228    -0.694     0.0        CT-CT-C -O      aldehyde & ketone & acyl halide
+115   0.000     0.000    -0.076     0.0        HC-CT-CT-C(O)   aldehyde & ketone & acyl halide
+116  -1.697    -0.456     0.585     0.0        CT-CT-CT-C      aldehyde & ketone & acyl halide
+116  -1.697    -0.456     0.585     0.0        CA-CT-CT-C      aldehyde & ketone & acyl halide
+116  -1.697    -0.456     0.585     0.0        C*-CT-CT-C
+117   0.0       0.0       0.0       0.0        CT-CT-C -HC     aldehyde
+118   1.454    -0.144    -0.775     0.0        CT-CT-C -CT     ketone
+119   3.000     5.500     0.00      0.0        C -C -OH-HO     oxalic acid, etc.
+120   2.25      0.0       0.00      0.0        CA-CT-P -OS     phosphonates
+121   3.5      -3.3       1.50      0.0        CT-P -OS-CT     phosphonates
+122   0.0       0.0       0.30      0.0        P -OS-CT-HC     phosphonates
+123   0.0       0.0       0.00      0.0        O2-P -OS-CT     phosphonates
+123   0.0       0.0       0.00      0.0        O -P -OS-CA     phosphonates
+123   0.0       0.0       0.00      0.0        O -P -OH-HO     phosphonates
+123   0.0       0.0       0.00      0.0        OH-P -OH-HO     phosphonates
+124   0.0       0.0       0.00      0.0        CA-CA-CT-P      phosphonates
+125   0.0       0.0       0.00      0.0        CA-CT-P -O2     phosphonates
+126   0.0       0.0       0.25      0.0        HC-CT-P -O2     phosphonates
+126   0.0       0.0       0.25      0.0        HC-CT-P -OS     phosphonates
+127   0.0       0.0       0.562     0.0        O2-P -OS-C?     MeOPO3 (2-) mll
+128   0.90     -2.93      2.64      0.0        O2-P -OS-CT     dimethyl phosphate
+129   0.0       2.990     0.00      0.0        CA-CA-OS-P      PhOPO3 (2-) mll
+130   2.0       0.0       0.0       0.0        NT-CT-CT-Cl     2-chloroethylamines
+131   0.0       0.0       0.400     0.0        HC-CT-CT-Cl     alkyl chloride
+132   0.0       0.0       0.400     0.0        CT-CT-CT-Cl     alkyl chloride
+133  -0.25      0.0       0.000     0.0        Cl-CT-CT-Cl     dichloride
+131   0.0       0.0       0.400     0.0        HC-CT-CT-I      alkyl iodide
+132   0.0       0.0       0.400     0.0        CT-CT-CT-I      alkyl iodide
+134   4.478    -2.1746    0.000     0.0        HO-OH-CT-CT     trifluoroethanol
+135   0.000     0.000     0.476     0.0        HC-CT-OH-HO     trifluoroethanol
+136   0.000     0.000     0.3137    0.0        F-CT-CT-HC      trifluoroethanol
+137   0.000     0.000     0.5401    0.0        F -CT-CT-OH     trifluoroethanol
+138   3.200     4.900     0.000     0.0        CT-C -OH-HO     1,2-diacid monoanion
+139  -1.000    -1.900    -0.900     0.0        CT-CT-C -O      1,2-diacid monoanion
+140   0.800     0.000     0.900     0.0        C -CT-CT-C      1,2-diacid monoanion
+141   1.671    -4.901     0.669     0.0        H -N -SY-CA     sulfonamide
+142   1.362    -1.457     0.149     0.0        HC-CT-N -SY     sulfonamide
+143   2.074    -2.966     2.473     0.0        CT-N -SY-CA     sulfonamide
+144   2.929    -2.533     0.497     0.0        CT-CT-N -SY     sulfonamide
+145   1.656    -0.768    -0.117     0.0        CA-CA-SY-N      sulfonamide
+146   0.0       0.0       0.0       0.0        ??-??-SY-OY     sulfonamide
+146   0.0       0.0       0.0       0.0        ??-CA-SY-OY     sulfonamide
+146   0.0       0.0       0.0       0.0        ??-N -SY-OY     sulfonamide
+146   0.0       0.0       0.0       0.0        ??-CT-SY-OY     sulfonamide
+146   0.0       0.0       0.0       0.0        ??-CT-SY-N      sulfonamide
+147   0.0       0.0       0.400     0.0        HC-CT-CT-F      alkyl fluoride
+148   0.300    -0.4       0.400     0.0        CT-CT-CT-F      alkyl fluoride
+149  -2.5       0.0       0.250     0.0        F -CT-CT-F      1,2-difluoride
+150  -1.336     0.0       0.0       0.0        CT-CT-CT-O?     hexopyranoses
+151   2.674    -2.883     1.026     0.0        CT-CT-OH-HO     hexopyranoses
+152   9.066     0.0       0.0       0.0        OH-CT-CT-OH     hexopyranoses
+153  -0.375    -1.358     0.004     0.0        CT-OS-CO-OH     hexopyranoses
+153  -0.375    -1.358     0.004     0.0        CT-OS-CO-OS     hexopyranoses
+154  -1.257    -1.806     0.003     0.0        OS-CO-OH-HO     hexopyranoses
+155   4.319     0.0       0.0       0.0        OH-CT-CT-OS     hexopyranoses
+156   6.622     0.948    -1.388    -2.118      CT-CT-CT-CT     perfluoroalkane
+157   0.0       0.0       0.400     0.0        HC-CT-CT-Br     alkyl bromide
+158   0.0       0.0       0.400     0.0        CT-CT-CT-Br     alkyl bromide
+159   0.0       0.0       0.400     0.0        CA-CA-CT-Br     alkyl bromide
+160   0.0      21.0       0.0       0.0        O -C -X -Y      improper torsion
+161   0.0       2.0       0.0       0.0        Z -N -X -Y      improper torsion
+162   0.0       2.2       0.0       0.0        Z -CA-X -Y      improper torsion
+163
+164
+165   0.0       7.250     0.0       0.0        ??-CA-CA-??
+165   0.0       7.250     0.0       0.0        HA-CA-CA-CM       in aromatic ring
+165   0.0       7.250     0.0       0.0        CA-CA-CA-CA
+165   0.0       7.250     0.0       0.0        CA-CA-CA-HA
+165   0.0       7.250     0.0       0.0        HA-CA-CA-HA
+165   0.0       7.250     0.0       0.0        CA-CA-C!-CA
+165   0.0       7.250     0.0       0.0        CA-CA-C!-C!
+165   0.0       7.250     0.0       0.0        CA-CA-CA-C!
+165   0.0       7.250     0.0       0.0        CA-CA-CA-CM
+165   0.0       7.250     0.0       0.0        C!-CA-CA-HA
+165   0.0       7.250     0.0       0.0        HA-CA-C!-C!
+165   0.0       7.250     0.0       0.0        HA-CA-C!-CA
+165   0.0       7.250     0.0       0.0        CA-CA-C!-NC
+165   0.0       7.250     0.0       0.0        CA-C!-NC-CA
+165   0.0       7.250     0.0       0.0        C!-C!-CA-NC
+165   0.0       7.250     0.0       0.0        CA-C!-CA-NC
+165   0.0       7.250     0.0       0.0        C!-CA-CA-NC
+165   0.0       7.250     0.0       0.0        C!-C!-NC-CA
+165   0.0       7.250     0.0       0.0        C!-C!-N -C
+165   0.0       7.250     0.0       0.0        C!-C!-CM-C
+165   0.0       7.250     0.0       0.0        NC-C!-CA-HA
+165   0.0       7.250     0.0       0.0        CA-CA-CA-F
+165   0.0       7.250     0.0       0.0        CA-CA-CA-Cl
+165   0.0       7.250     0.0       0.0        CA-CA-CA-Br
+165   0.0       7.250     0.0       0.0        CA-CA-CA-I
+165   0.0       7.250     0.0       0.0        HA-CA-CA-F
+165   0.0       7.250     0.0       0.0        HA-CA-CA-Cl
+165   0.0       7.250     0.0       0.0        HA-CA-CA-Br
+165   0.0       7.250     0.0       0.0        HA-CA-CA-I
+165   0.0       7.250     0.0       0.0        CA-CA-CA-N?
+165   0.0       7.250     0.0       0.0        HA-C=-C=-C?
+165   0.0       7.250     0.0       0.0        C -C=-C=-C
+165   0.0       7.250     0.0       0.0        HA-CA-CA-CT
+165   0.0       7.250     0.0       0.0        CT-CA-CA-CT
+165   0.0       7.250     0.0       0.0        CT-CA-CA-CA
+165   0.0       7.250     0.0       0.0        CA-CA-CA-CB
+165   0.0       7.250     0.0       0.0        HA-CA-CA-CB
+165   0.0       7.250     0.0       0.0        CA-CA-CA-O?
+165   0.0       7.250     0.0       0.0        CA-CA-CA-OS
+165   0.0       7.250     0.0       0.0        HA-CA-CA-O?
+165   0.0       7.250     0.0       0.0        HA-CA-CA-OS
+165   0.0       7.250     0.0       0.0        CT-CA-CA-O?
+165   0.0       7.250     0.0       0.0        CM-CA-CA-OS
+165   0.0       7.250     0.0       0.0        O?-CA-CA-O?
+165   0.0       7.250     0.0       0.0        CA-CA-CA-S?
+165   0.0       7.250     0.0       0.0        HA-CA-CA-S?
+165   0.0       7.250     0.0       0.0        CT-CA-CA-S?
+165   0.0       7.250     0.0       0.0        S?-CA-CA-S?
+165   0.0       7.250     0.0       0.0        HA-CM-C!-N?
+165   0.0       7.250     0.0       0.0        HA-CM-C!-N
+165   0.0       7.250     0.0       0.0        HA-CA-CA-N?
+165   0.0       7.250     0.0       0.0        CT-CA-CA-N?
+165   0.0       7.250     0.0       0.0        O?-CA-CA-N?
+165   0.0       7.250     0.0       0.0        N?-CA-CA-N?
+165   0.0       7.250     0.0       0.0        ??-CB-CB-??
+165   0.0       7.250     0.0       0.0        C?-CB-CB-C?
+165   0.0       7.250     0.0       0.0        N?-CB-CB-C?
+165   0.0       7.250     0.0       0.0        N?-CB-CB-N?
+165   0.0       7.250     0.0       0.0        ??-CB-CS-??
+165   0.0       7.250     0.0       0.0        ??-CS-C -??
+165   0.0       7.250     0.0       0.0        ??-CR-CS-??
+165   0.0       7.250     0.0       0.0        ??-CS-CW-??
+165   0.0       7.250     0.0       0.0        C?-CS-CW-C?
+165   0.0       7.250     0.0       0.0        C?-CS-CW-H?
+165   0.0       7.250     0.0       0.0        C?-CS-CW-N?
+165   0.0       7.250     0.0       0.0        HA-CS-CW-N?
+165   0.0       7.250     0.0       0.0        HA-CS-CW-C?
+165   0.0       7.250     0.0       0.0        HA-CS-CW-HA
+165   0.0       7.250     0.0       0.0        HA-CV-CW-HA
+165   0.0       7.250     0.0       0.0        HA-CS-CS-HA
+165   0.0       7.250     0.0       0.0        HA-CA-CU-HA
+165   0.0       7.250     0.0       0.0        HA-CW-OS-CW
+165   0.0       7.250     0.0       0.0        ??-NC-CA-??
+165   0.0       7.250     0.0       0.0        CS-CW-OS-CW
+165   0.0       7.250     0.0       0.0        CA-NC-CA-CA
+165   0.0       7.250     0.0       0.0        C?-NC-CA-N?
+165   0.0       7.250     0.0       0.0        CA-NC-CA-HA
+165   0.0       7.250     0.0       0.0        CA-NC-NC-CT
+165   0.0       7.250     0.0       0.0        CA-NC-NC-CA
+165   0.0       7.250     0.0       0.0        CT-NC-NC-CT
+165   0.0       7.250     0.0       0.0        ??-NC-CB-??
+165   0.0       7.250     0.0       0.0        C?-NC-CB-C?
+165   0.0       7.250     0.0       0.0        C?-NC-CB-N?
+165   0.0       7.250     0.0       0.0        ??-NA-CB-??
+165   0.0       7.250     0.0       0.0        ??-NB-CB-??
+165   0.0       7.250     0.0       0.0        ??-NB-CR-??
+165   0.0       7.250     0.0       0.0        ??-NB-CU-??
+165   0.0       7.250     0.0       0.0        C?-NA-CB-C?
+165   0.0       7.250     0.0       0.0        C?-NA-CB-N?
+165   0.0       7.250     0.0       0.0        C?-NB-CB-C?
+165   0.0       7.250     0.0       0.0        CU-CW-S -CR
+165   0.0       7.250     0.0       0.0        CW-S -CR-NB
+165   0.0       7.250     0.0       0.0        S -CR-NB-CU
+165   0.0       7.250     0.0       0.0        CR-NB-CU-CW
+165   0.0       7.250     0.0       0.0        NB-CU-CW-S
+165   0.0       7.250     0.0       0.0        CU-CW-OS-CR
+165   0.0       7.250     0.0       0.0        CW-OS-CR-NB
+165   0.0       7.250     0.0       0.0        OS-CR-NB-CU
+165   0.0       7.250     0.0       0.0        NB-CU-CW-OS
+165   0.0       7.250     0.0       0.0        ??-N -CB-??
+165   0.0       7.250     0.0       0.0        ??-NC-CR-??
+165   0.0       7.250     0.0       0.0        ??-NC-CQ-??
+165   0.0       7.250     0.0       0.0        C?-NC-CQ-HA
+165   0.0       7.250     0.0       0.0        C?-NC-CQ-N?
+165   0.0       7.250     0.0       0.0        ??-N -CQ-??
+165   0.0       7.250     0.0       0.0        C?-N -CQ-N?
+165   0.0       7.250     0.0       0.0        C?-N -CQ-HA
+165   0.0       7.250     0.0       0.0        H -N -CQ-??
+166   0.0       2.80      0.0       0.0        ??-CW-NA-??
+167   0.0       4.65      0.0       0.0        ??-NA-CR-??
+168   0.0      10.0       0.0       0.0        HA-CR-NB-??
+168   0.0      10.0       0.0       0.0        N?-CR-NB-C?
+168   0.0      10.0       0.0       0.0        ??-CR-NB-??
+168   0.0      10.0       0.0       0.0        ??-CW-NB-??
+168   0.0      10.0       0.0       0.0        ??-CR-NA-??
+168   0.0      10.0       0.0       0.0        HA-CR-NA-??
+168   0.0      10.0       0.0       0.0        N?-CR-NA-C?
+168   0.0      10.0       0.0       0.0        ??-CR-NC-??
+168   0.0      10.0       0.0       0.0        ??-CK-NB-??
+168   0.0      10.0       0.0       0.0        ??-CK-NA-??
+168   0.0      10.0       0.0       0.0        ??-CK-NC-??
+168   0.0      10.0       0.0       0.0        ??-NA-NB-??
+168   0.0      10.0       0.0       0.0        ??-NB-NB-??
+169   0.0       4.80      0.0       0.0        ??-NB-CV-??
+170   0.0      10.75      0.0       0.0        ??-CW-CV-??
+170   0.0      10.75      0.0       0.0        C?-CW-CV-C?
+170   0.0      10.75      0.0       0.0        C?-CW-CV-H?
+170   0.0      10.75      0.0       0.0        H?-CW-CV-C?
+170   0.0      10.75      0.0       0.0        H?-CW-CV-H?
+170   0.0      10.75      0.0       0.0        ??-CW-CW-??
+170   0.0      10.75      0.0       0.0        C?-CW-CW-C?
+170   0.0      10.75      0.0       0.0        C?-CW-CW-H?
+170   0.0      10.75      0.0       0.0        H?-CW-CW-C?
+170   0.0      10.75      0.0       0.0        H?-CW-CW-H?
+171   0.0       5.00      0.0       0.0        ??-NA-CW-??
+171   0.0       5.00      0.0       0.0        C?-NA-CW-C?
+171   0.0       5.00      0.0       0.0        N?-NA-CW-C?
+171   0.0       5.00      0.0       0.0        C?-NA-CW-H?
+171   0.0       5.00      0.0       0.0        N?-NA-CW-H?
+171   0.0       5.00      0.0       0.0        H -NA-CW-??
+171   0.0       5.00      0.0       0.0        H -NA-CR-??
+171   0.0       5.00      0.0       0.0        H -NA-CB-??
+172   0.0      13.05      0.0       0.0        ??-C*-CW-??
+173   0.0       3.35      0.0       0.0        ??-C*-CB-??
+174   0.0       7.00      0.0       0.0        ??-CA-CB-??
+174   0.0       7.00      0.0       0.0        C?-CA-CB-C?
+174   0.0       7.00      0.0       0.0        N?-CA-CB-N?
+174   0.0       7.00      0.0       0.0        C?-CA-CB-N?
+174   0.0       7.00      0.0       0.0        N?-CA-CB-C?
+174   0.0       7.00      0.0       0.0        ??-C -CB-??
+174   0.0       7.00      0.0       0.0        O -C -CB-C?
+174   0.0       7.00      0.0       0.0        N?-C -CB-N?
+174   0.0       7.00      0.0       0.0        O -C -CB-N?
+174   0.0       7.00      0.0       0.0        N?-C -CB-C?
+175   0.0       6.0       0.0       0.0        ??-CB-CN-??
+176   0.0       3.05      0.0       0.0        ??-NA-CN-??
+177   0.0       3.0       0.0       0.0        ??-CW-NA-??
+178  -1.42     -0.62      0.1       0.0        CT-CT-OS-P in methyl ethyl phosphate
+179
+180   0.000     0.000     0.1320    0.0        HC-CT-C -OS     esters
+181   4.669     5.124     0.0000    0.0        CT-C -OS-CT     esters
+181   4.669     5.124     0.0000    0.0        HC-C -OS-CT     esters
+182   0.000     5.124     0.0000    0.0        O -C -OS-CT     esters
+183   0.000     0.000     0.1980    0.0        C -OS-CT-HC     esters
+184   0.000     0.000    -0.5530    0.0        CT-CT-C -OS     esters
+185  -1.220    -0.126     0.4220    0.0        CT-CT-OS-C      esters
+186   1.000     0.0       0.0       0.0        CA-CT-CT-N3     phenethylammonium - JACS 119,12292(97
+187  -0.800     0.0       0.0       0.0        CA-CT-CT-NT     phenethylamines - fit    "
+188   0.0       0.40      0.0       0.0        CT-CT-NO-ON     nitroethane
+189   0.0       1.15      0.0       0.0        CA-CA-NO-ON     nitrobenzene
+190   0.000     1.620     0.000    -0.44       N2-CA-CA-CA     benzamidine; fit to 6-31G* 8/02
+191   0.000     3.651     0.000     0.0        CT-NY-CA-NZ     neutral arg
+192   0.000     4.000     0.000     0.0        CT-CT-NT-H      azetidine - 4 membered cyclic amines
+193   0.200    -0.417     0.418     0.0        CT-CT-NT-H      pyrrolidine 5 membered cyclic amines
+199   0.416    -0.128     0.695     0.0        CT-NT-CT-CT     amine (repeated here so taken first b
+194   1.536    -0.128     0.695     0.0        CT-NT-CT-CT     exocyclic amines
+195   1.464    -0.128     0.695     0.0        CT-NT-CT-CT     exocyclic 1,4-diamines
+196   0.819    -0.417     0.418     0.0        CT-CT-NT-H      cyclic amines
+197   1.522    -0.417     0.418     0.0        CT-CT-NT-H      cyclic 1,4-diamines
+198  11.035    -0.968     0.270     0.0        NT-CT-CT-NT     amine all-atom
+199   0.416    -0.128     0.695     0.0        CT-NT-CT-CT     amine all-atom
+200   0.0       0.0       0.56      0.0        HC-CT-NT-CT     amine all-atom
+201   1.700    -0.600     0.0       0.0        CT-CT-CW-NA     2-ethyl pyrrole
+202   0.900     0.230    -0.505     0.0        CT-C=-C=-CM     2-Me-1,3-butadiene
+202   0.900     0.230    -0.505     0.0        CT-C=-C -O?     2-Me-1,3-butadiene-like
+202   0.900     0.230    -0.505     0.0        CT-CM-C -O?     2-Me-1,3-butadiene-like
+203   0.8      -3.0       0.0       0.0        CT-C -C=-CM     methyl vinyl ketone
+204   3.2      -3.0       0.0       0.0        CM-C=-C -OH     acrylic acid
+204   3.2      -3.0       0.0       0.0        CM-CM-C -OH     acrylic acid-like
+205   2.5       6.0       0.0       0.0        CM-C=-C -O      acrolein
+205   2.5       6.0       0.0       0.0        CM-CM-C -O      acrolein-like
+206   0.0       0.2       0.0       0.0        CA-CA-C -CT     aryl ketone
+206   0.0       0.2       0.0       0.0        CA-CA-C -HC     aryl aldehyde
+207   0.0       2.100     0.0       0.0        CA-CA-N -??     N-phenylamide
+207   0.0       2.100     0.0       0.0        CA-CA-N -H      N-phenylamide
+207   0.0       2.100     0.0       0.0        CA-CA-N -C      N-phenylamide
+207   0.0       2.100     0.0       0.0        CA-CA-N -CT     N-phenylamide
+208   0.0       2.100     0.0       0.0        CA-CA-C -O      aryl carbonyl
+208   0.0       2.100     0.0       0.0        CA-CA-C -OS     aryl acid, ester
+208   0.0       2.100     0.0       0.0        CA-CA-C -OH     aryl acid, ester
+209   0.0       2.500     0.0       0.0        CA-CA-OS-C      phenyl acetate
+210   0.000     5.000     0.00      0.0        O -C -OH-HO     benzoic acids
+210   0.000     5.000     0.00      0.0        O -C -OS-CT     benzoic esters
+211   4.000     5.000     0.00      0.0        CA-C -OH-HO     benzoic acids
+211   4.000     5.000     0.00      0.0        CA-C -OS-CT     benzoic esters
+212   0.000     5.000     0.000     0.0        O -C -OS-CA     phenyl acetate
+213   1.500     5.000     0.000     0.0        CT-C -OS-CA     phenyl acetate
+214   0.000     1.100     0.0       0.0        CA-CA-C -N      aryl amides
+215   0.0       2.03      0.0       0.0        CA-CA-NT-H      aniline
+215   0.0       2.03      0.0       0.0        ??-CA-N2-H      aniline-like
+215   0.0       2.03      0.0       0.0        ??-CQ-N2-H      aniline-like
+215   0.0       2.03      0.0       0.0        N?-CA-N2-H      aniline-like
+215   0.0       2.03      0.0       0.0        CB-CA-N2-H      aniline-like
+215   0.0       2.03      0.0       0.0        S -CR-N -H      aniline-like
+215   0.0       2.03      0.0       0.0        OS-CR-N -H      aniline-like
+216  -7.582     3.431     3.198     0.0        CA-CA-NT-CT     substituted-aniline
+217   2.817    -0.169     0.543     0.0        CT-CM-CT-CT     alkenes
+218   0.346     0.405    -0.904     0.0        CM-CM-CT-CT     alkenes
+218   0.346     0.405    -0.904     0.0        C=-CM-CT-CT     alkenes
+219   1.241     3.353    -0.286     0.0        CM-CM-CA-CA     styrene
+220   0.205    -0.531     0.000     0.0        CT-CM-CA-CA     1-methylstyrene
+221   0.0      30.0       0.0       0.0        Z -CM-X -Y      improper torsion
+222   0.0      14.0       0.0       0.0        ??-CM-CM-??     alkene
+222   0.0      14.0       0.0       0.0        CA-CM-CM-CA     alkene
+222   0.0      14.0       0.0       0.0        CA-CM-CM-HC
+222   0.0      14.0       0.0       0.0        CT-CM-CM-CT     alkene
+222   0.0      14.0       0.0       0.0        CT-CM-C=-CT     alkene
+222   0.0      14.0       0.0       0.0        CT-CM-C=-HC     alkene
+222   0.0      14.0       0.0       0.0        HC-CM-C=-HC     alkene
+222   0.0      14.0       0.0       0.0        HC-CM-C=-CT     alkene
+222   0.0      14.0       0.0       0.0        CT-CM-CM-HC     alkene
+222   0.0      14.0       0.0       0.0        C -CM-CM-HC     alkene
+222   0.0      14.0       0.0       0.0        HC-CM-CM-HC     alkene
+222   0.0      14.0       0.0       0.0        HC-CM-C=-C=     alkene
+222   0.0      14.0       0.0       0.0        Cl-CM-CM-HC     chloroalkene
+222   0.0      14.0       0.0       0.0        HC-CM-CM-OS     vinyl ether
+222   0.0      14.0       0.0       0.0        CT-CM-CM-OS     vinyl ether
+222   0.0      14.0       0.0       0.0        HC-CM-CM-OH     vinyl alcohol
+222   0.0      14.0       0.0       0.0        CT-CM-CM-OH     vinyl alcohol
+222   0.0      14.0       0.0       0.0        C -CM-CM-N      conj. amide
+222   0.0      14.0       0.0       0.0        CT-C -NC-CT     imine
+222   0.0      14.0       0.0       0.0        HC-C -NC-HC     imine
+222   0.0      14.0       0.0       0.0        CT-C -NC-O?     oxime
+222   0.0      14.0       0.0       0.0        HC-C -NC-O?     oxime
+223   0.0       2.17      0.0       0.0        CA-C!-C!-CA     biphenyl
+223   0.0       2.17      0.0       0.0        CA-C!-C!-NC     biphenyl-like
+223   0.0       2.17      0.0       0.0        CA-C!-C -CA     biphenyl
+223   0.0       2.17      0.0       0.0        CA-C!-NA-NB     biphenyl-like
+223   0.0       2.17      0.0       0.0        CA-C!-NA-CW     biphenyl-like
+223   0.0       2.17      0.0       0.0        CA-C!-CW-C?     biphenyl-like
+223   0.0       2.17      0.0       0.0        CA-C!-CW-NA     biphenyl-like
+223   0.0       2.17      0.0       0.0        CA-C!-CW-OS     biphenyl-like
+223   0.0       2.17      0.0       0.0        CA-C!-CS-C?     biphenyl-like
+223   0.0       2.17      0.0       0.0        CA-C!-CM-C?     biphenyl-like
+223   0.0       2.17      0.0       0.0        CA-C!-CU-C?     biphenyl-like
+223   0.0       2.17      0.0       0.0        CA-C!-CU-NB     biphenyl-like
+223   0.0       2.17      0.0       0.0        CA-C!-CV-C?     biphenyl-like
+223   0.0       2.17      0.0       0.0        CA-C!-CV-NB     biphenyl-like
+223   0.0       2.17      0.0       0.0        CA-C!-CR-OS     biphenyl-like
+223   0.0       2.17      0.0       0.0        CA-C!-CR-NA     biphenyl-like
+223   0.0       2.17      0.0       0.0        CA-C!-CR-NB     biphenyl-like
+223   0.0       2.17      0.0       0.0        CA-C!-CW-S      biphenyl-like
+223   0.0       2.17      0.0       0.0        CA-C!-CR-S      biphenyl-like
+223   0.0       2.17      0.0       0.0        CA-C!-N -C      biphenyl-like
+223   0.0       2.17      0.0       0.0        CA-C!-N -CM     biphenyl-like
+223   0.0       2.17      0.0       0.0        NC-C!-N -C      biphenyl-like
+223   0.0       2.17      0.0       0.0        NC-C!-N -CM     biphenyl-like
+223   0.0       2.17      0.0       0.0        CS-CS-CS-C?     biphenyl-like
+223   0.0       2.17      0.0       0.0        CS-CS-CS-N?     biphenyl-like
+223   0.0       2.17      0.0       0.0        OS-CS-CS-C?     biphenyl-like
+223   0.0       2.17      0.0       0.0        OS-CS-CS-N?     biphenyl-like
+223   0.0       2.17      0.0       0.0        NA-CS-CS-C?     biphenyl-like
+223   0.0       2.17      0.0       0.0        NA-CS-CS-N?     biphenyl-like
+223   0.0       2.17      0.0       0.0        CW-CV-CS-C?     biphenyl-like
+223   0.0       2.17      0.0       0.0        CW-CV-CS-N?     biphenyl-like
+223   0.0       2.17      0.0       0.0        NB-CV-CS-C?     biphenyl-like
+223   0.0       2.17      0.0       0.0        NB-CV-CS-N?     biphenyl-like
+223   0.0       2.17      0.0       0.0        N?-CR-CS-C?     biphenyl-like
+223   0.0       2.17      0.0       0.0        N?-CR-CW-C?     biphenyl-like
+223   0.0       2.17      0.0       0.0        ??-N -CU-??     biphenyl-like
+223   0.0       2.17      0.0       0.0        ??-N -CW-??     biphenyl-like
+223   0.0       2.17      0.0       0.0        ??-N -CS-??     biphenyl-like
+223   0.0       2.17      0.0       0.0        ??-CM-CU-??     biphenyl-like
+223   0.0       2.17      0.0       0.0        ??-CM-CW-??     biphenyl-like
+223   0.0       2.17      0.0       0.0        ??-CM-CS-??     biphenyl-like
+223   0.0       2.17      0.0       0.0        NC-C!-CU-C?     biphenyl-like
+223   0.0       2.17      0.0       0.0        NC-C!-CU-N?     biphenyl-like
+223   0.0       2.17      0.0       0.0        CA-C!-CU-C?     biphenyl-like
+223   0.0       2.17      0.0       0.0        CA-C!-CU-N?     biphenyl-like
+224  -1.6      14.0       0.0       0.0        Cl-CM-CM-Cl     chloroalkene
+225   0.000     0.000     0.300     0.0        HC-CT-P+-CT      phosphonium ion
+226   0.000     0.000     0.300     0.0        HC-CT-CT-P+       "
+227   1.000    -0.500     0.500     0.0        CT-CT-P+-CT       "
+228   3.132    -1.491     2.744     0.0        CK-N*-CT-OS     Ping added,nucleoside
+229   2.756    -0.872    -3.680     0.0        CK-NA-CT-CT     Ping added,nucleoside
+230
+231   3.0       3.0       0.0       0.0        C -NC-OH-HO     oxime B3LYP/6-31G*
+231   3.0       3.0       0.0       0.0        C -NC-OS-CT     oxime   11/00
+232  -3.5       3.0       0.0       0.0        CM-CM-OS-CT     vinyl ether
+232  -3.5       3.0       0.0       0.0        C=-CM-OS-CT     vinyl ether
+233   0.500     0.0       0.0       0.0        CM-CM-CT-F      allyl CF3
+233   0.500     0.0       0.0       0.0        CM-CM-CT-O?     allyl alcohols, ethers
+233   0.500     0.0       0.0       0.0        C=-CM-CT-O?     allyl alcohols, ethers
+233   0.500     0.0       0.0       0.0        CM-C=-CT-O?     allyl alcohols, ethers
+234  -0.9       0.0       0.0       0.0        CM-CT-OH-HO     allyl alcohols
+234  -0.9       0.0       0.0       0.0        CA-CT-OH-HO     benzyl alcohols
+234  -0.9       0.0       0.0       0.0        C=-CT-OH-HO     allyl alcohols
+235   0.0000    0.0000    0.3500    0.0        HC-CT-SY-OY     sulfone
+236   0.0000    0.0000    0.3500    0.0        HC-CT-SY-CT     sulfone
+236   0.0000    0.0000    0.3500    0.0        HC-CT-SY-CA     sulfone
+237   0.0       0.0       0.0       0.0        CT-CT-SY-CT     sulfone
+238   0.0       0.0       0.0       0.0        CT-CT-SY-OY     sulfone
+239   0.0       0.0       0.3500    0.0        HC-CT-CT-SY     sulfone
+240   0.0       0.0       0.3017    0.0        HC-CT-N3-CT 2ary ammonium
+241   1.4379   -0.1238    0.2639    0.0        CT-CT-N3-CT 2ary ammonium
+242   0.0       0.0       0.0       0.0        ??-CT-CZ-NZ     nitriles
+243   0.0       0.0       0.0       0.0        ??-CZ-CZ-??     alkynes
+244   0.0       0.0       0.0       0.0        ??-CT-CZ-CZ     alkynes
+244   0.0       0.0       0.0       0.0        CT-CT-CZ-CZ     alkynes
+244   0.0       0.0       0.0       0.0        HC-CT-CZ-CZ     alkynes
+244   0.0       0.0       0.0       0.0        HC-CZ-CZ-CT     alkynes
+244   0.0       0.0       0.0       0.0        CT-CZ-CZ-CT     alkynes
+245   0.0      -0.9       0.0       0.0        CA-CA-SY-CT     sulfone 10/00 B3LYP PhSO2Me
+246
+247
+248
+249
+250  -1.50     -1.50      0.0       0.0        CR-NA-CT-OS     imidazoles, indoles, purines
+250  -1.50     -1.50      0.0       0.0        CR-N*-CT-OS     imidazoles, indoles, purines
+251  -1.50     -1.50      0.0       0.0        CK-NA-CT-OS     imidazoles, indoles, purines
+251  -1.50     -1.50      0.0       0.0        CK-N*-CT-OS     imidazoles, indoles, purines
+252   1.50     -1.50      0.0       0.0        C?-NA-CT-OS     imidazoles, indoles, purines
+252   1.50     -1.50      0.0       0.0        C?-N*-CT-OS     imidazoles, indoles, purines
+253  -1.00     -0.35      0.0       0.0        CR-NA-CT-CT     imidazoles, indoles, purines
+253  -1.00     -0.35      0.0       0.0        CR-N*-CT-CT     imidazoles, indoles, purines
+254  -1.00     -0.35      0.0       0.0        CK-NA-CT-CT     imidazoles, indoles, purines
+254  -1.00     -0.35      0.0       0.0        CK-N*-CT-CT     imidazoles, indoles, purines
+255   1.00     -0.35      0.0       0.0        C?-NA-CT-CT     imidazoles, indoles, purines
+255   1.00     -0.35      0.0       0.0        C?-N*-CT-CT     imidazoles, indoles, purines
+256  -0.50     -1.50      1.0       0.0        N?-CT-OS-CT     imidazoles, indoles, purines
+257   0.00     -1.876     0.0       0.0        C?-NA-CT-OS     Ping added for chi in nucleoside
+258   0.00     -0.576     0.0       0.0        C?-NA-CT-CT     Ping added for ..
+259
+260   0.0       0.0       0.0       0.0        ??-CY-CY-??     small ring
+260   0.0       0.0       0.0       0.0        ??-CY-N$-??     small ring
+260   0.0       0.0       0.0       0.0        ??-CY-C$-??     small ring
+260   0.0       0.0       0.0       0.0        CY-CY-C$-N$     small ring
+260   0.0       0.0       0.0       0.0        CY-CY-C$-O      small ring
+260   0.0       0.0       0.0       0.0        ??-CY-S -??     small ring
+260   0.0       0.0       0.0       0.0        CY-CY-N$-??     small ring
+260   0.0       0.0       0.0       0.0        HC-CY-N$-C?     small ring
+260   0.0       0.0       0.0       0.0        HC-CY-C$-O      small ring
+260   0.0       0.0       0.0       0.0        HC-CY-C$-N$     small ring
+260   0.0       0.0       0.0       0.0        N -CY-CY-??     small ring
+260   0.0       0.0       0.0       0.0        CY-CY-N -H      small ring
+260   0.0       0.0       0.0       0.0        C$-CY-N -H      small ring
+260   0.0       0.0       0.0       0.0        HC-CY-N -C      small ring
+260   0.0       0.0       0.0       0.0        HC-CY-N -H      small ring
+260   0.0       0.0       0.0       0.0        C?-N$-CT-C?     small ring
+260   0.0       0.0       0.0       0.0        C?-N$-CT-HC     small ring
+261   2.300     6.089     0.000     0.0        CY-C$-N$-CT     small ring amides
+261   2.300     6.089     0.000     0.0        CY-C$-N$-CY     small ring amides
+261   2.300     6.089     0.000     0.0        CY-N -CT-CT     small ring amides
+261   2.300     6.089     0.000     0.0        CY-C$-N$-CA     small ring amides
+262   0.000     4.900     0.000     0.0        O -C$-N$-H      small ring amides
+262   0.000     4.900     0.000     0.0        CY-C$-N$-H      small ring amides
+263   0.000     6.089     0.000     0.0        O -C$-N$-CT     small ring amides
+263   0.000     6.089     0.000     0.0        O -C$-N$-CA     small ring amides
+263   0.000     6.089     0.000     0.0        O -C -N -CY     small ring amides
+264  -1.396    -0.427     0.000     0.0        C -N -CY-CY     small ring
+264  -1.396    -0.427     0.000     0.0        C -N -CY-C$     small ring
+265   0.000    20.000     0.000     0.0        O -C$-N$-CY     small ring amides
+266   0.000     0.000     0.000     0.0        HC-CY-CY-HC     small ring
+266   0.000     0.000     0.000     0.0        HC-CY-CY-CY     small ring
+266   0.000     0.000     0.000     0.0        HC-CY-CY-CT     small ring
+266   0.000     0.000     0.000     0.0        CT-CY-CY-CT     small ring
+266   0.000     0.000     0.000     0.0        CY-CY-CY-CY     small ring
+267   0.000     0.000     0.300     0.0        HC-CT-CY-CY     small ring
+270   0.0       0.0      -0.372     0.0        HC-CT-CM-CM     alkenes all-atom also see 217
+270   0.0       0.0      -0.372     0.0        HC-CT-CM-C=     alkenes all-atom also see 217
+270   0.0       0.0      -0.372     0.0        HC-CT-C=-C=     alkenes all-atom also see 217
+270   0.0       0.0      -0.372     0.0        HC-CT-C=-CM     alkenes all-atom also see 217
+271   0.000     0.000     0.318     0.0        HC-CM-CT-HC     alkene
+272   0.000     0.000     0.366     0.0        HC-CT-CT-CM     alkene
+273   0.000     0.000     0.366     0.0        HC-CT-CT-CZ     alkyne, nitrile
+274   0.000    -0.650     0.0       0.0        CT-CT-CT-CZ     alkyne, nitrile
+300
+301   0.0       0.0       0.3       0.0        CT-NT-OS-CT     generic hydroxylamines
+301   0.0       0.0       0.3       0.0        CT-NT-OH-HO     generic
+301   0.0       0.0       0.3       0.0        H -NT-OS-CT     generic
+301   0.0       0.0       0.3       0.0        H -NT-OH-HO     generic
+301   0.0       0.0       0.3       0.0        CT-NT-NT-CT     generic hydrazines
+301   0.0       0.0       0.3       0.0        CT-NT-NT-H      generic
+301   0.0       0.0       0.3       0.0        H -NT-NT-H      generic
+302   2.300     6.089     0.0       0.0        OS-C -N -CT     carbamates
+302   2.300     6.089     0.0       0.0        OH-C -N -CT     carbamates
+303   0.000     4.900     0.0       0.0        OS-C -N -H      carbamates
+303   0.000     4.900     0.0       0.0        OH-C -N -H      carbamates
+304  -2.000     5.000     0.0       0.0        N -C -OS-CT     carbamates
+305  -2.000     5.000     0.0       0.0        N -C -OH-HO     carbamates
+306   0.0       0.0       0.0       0.0        HC-NC-NZ-NZ     azides
+306   0.0       0.0       0.0       0.0        CT-NC-NZ-NZ     azides
+306   0.0       0.0       0.0       0.0        CT-CT-NC-NZ     azides
+307   0.0       0.0       0.0       0.0        HC-CT-C -S=     thiocarbonyl
+308   1.000     5.000     0.000     0.0        S=-C -N -H      thioamides   wlj 01/00
+309   0.000     6.500     0.000     0.0        S=-C -N -CT     thioamides   fit to
+310   0.000     6.500     0.000     0.0        S=-C -N -CA     thioamides   MP3/6-31+G**
+311   0.000     6.500     0.000     0.0        S=-C -N -CM     thioamides   (Wiberg & Rush)
+312   0.000     5.000     0.000     0.0        S=-C -OS-CT     thioesters   guess
+313   0.000     5.500     0.00      0.0        S=-C -OH-HO     thioacids    guess
+314   0.000     0.600     0.000     0.0        CT-S -CA-CA     thioanisole  fit to MP4
+315
+320   0.000     0.500     0.000     0.0        O -C -C -CT     dicarbonyls Kahn & Bruice
+321   0.000     0.200     0.000     0.0        O -C -C -HC     dicarbonyls BMC 8,1881(2000)
+322   0.800    -0.760     0.000     0.0        HC-C -C -CT     dicarbonyls    "
+323   0.800     0.000     0.000     0.0        HC-C -C -HC     dicarbonyls    "
+324   0.700    -1.500     0.000     0.0        CT-C -C -CT     dicarbonyls    "
+325   0.000     0.000     0.085     0.0        C -C -CT-HC     dicarbonyls    "
+326   0.000     0.000     0.000     0.0        N -C -C -O      dicarbonyls    "
+327  -0.900     0.300     0.000     0.0        N -C -C -HC     dicarbonyls    "
+328  -0.500     0.200     0.000     0.0        N -C -C -CT     dicarbonyls    "
+329   0.400     4.900     0.000     0.0        C -C -N -CT     dicarbonyls    "
+330   0.000     4.900     0.000     0.0        H -N -C -C      dicarbonyls    "
+331   1.60      3.20      0.0       0.0        O -C -C -O      dicarbonyls    "
+332
+341   4.542     6.603     1.045     0.0        CT-C -N -OH     hydroxamic acids
+342   0.000     6.603     0.000     0.0        O -C -N -OH     hydroxamic acids
+343   5.519    -6.700     0.581     0.0        C -N -OH-HO     hydroxamic acids
+344   2.722    -5.154     0.000     0.0        H -N -OH-HO     hydroxamic acids
+345
+350   0.000     0.450     0.000     0.0        F -CT-CA-CA     fluoromethyl benzene - Theochem 418(1
+350   0.000     0.450     0.000     0.0        F -CT-CW-??     fluoromethyl aromatic
+350   0.000     0.450     0.000     0.0        F -CT-CS-??     fluoromethyl aromatic
+351   0.000    -0.400     0.000     0.0        Cl-CT-CA-CA     chloromethyl benzene - Theochem 418(1
+351   0.000    -0.400     0.000     0.0        Cl-CT-CW-??     chloromethyl aromatic
+351   0.000    -0.400     0.000     0.0        Cl-CT-CS-??     chloromethyl aromatic
+352  -0.650     0.000     0.000     0.0        Cl-CT-C -O      2-chloroamide wlj fit to 6-31G*
+353   0.650     0.000     0.000     0.0        Cl-CT-C -N      2-chloroamide wlj fit to 6-31G*
+400
+401
+402  -7.4       3.0       1.8       0.0        C3-C2-OS-C2     UA ether   with scl14 = 2,2
+403  -8.4       3.0       1.8       0.0        C3-C2-OS-C3     UA ether   with scl14 = 2,2
+404  -3.400     1.250     3.100     0.0        C2-C2-C2-C2     UA alkanes with scl14 = 2,2
+404  -3.400     1.250     3.100     0.0        C3-C2-C2-C2     UA alkanes with scl14 = 2,2
+404  -3.400     1.250     3.100     0.0        C3-C2-C2-C3     UA alkanes with scl14 = 2,2
+404  -3.400     1.250     3.100     0.0        CH-C2-C2-C2     UA alkanes with scl14 = 2,2
+404  -3.400     1.250     3.100     0.0        CH-C2-C2-CH     UA alkanes with scl14 = 2,2
+404  -3.400     1.250     3.100     0.0        CT-C2-C2-C2     UA alkanes with scl14 = 2,2
+404  -3.400     1.250     3.100     0.0        C2-CH-C2-C2     UA alkanes with scl14 = 2,2
+404  -3.400     1.250     3.100     0.0        C2-CT-C2-C2     UA alkanes with scl14 = 2,2
+410   0.300     0.000     1.300     0.0        C3-C2-OH-HO     Alcohols   with scl14 = 2,2
+411   0.300     0.000     1.300     0.0        C2-C2-OH-HO     Alcohols   with scl14 = 2,2
+411   0.300     0.000     1.300     0.0        CH-C2-OH-HO     Alcohols   with scl14 = 2,2
+412   0.300     0.000     0.500     0.0        C3-CH-OH-HO     Alcohols   with scl14 = 2,2
+412   0.300     0.000     0.500     0.0        C2-CH-OH-HO     Alcohols   with scl14 = 2,2
+413   0.0       0.0       0.200     0.0        C3-CT-OH-HO     Alcohols   with scl14 = 2,2
+413   0.0       0.0       0.200     0.0        C2-CT-OH-HO     Alcohols   with scl14 = 2,2
+414  -2.500     1.250     3.100     0.0        C2-C2-C2-O?     UA etherol with scl14 = 2,2
+414  -2.500     1.250     3.100     0.0        C3-C2-C2-O?     UA etherol with scl14 = 2,2
+415  -2.500     1.250     3.100     0.0        C2-CH-C2-O?     UA etherol with scl14 = 2,2
+420  -2.000     0.500     3.250     0.0        C2-C2-C2-Br     UA bromoalkane "    "    "
+420  -2.000     0.500     3.250     0.0        C3-C2-C2-Br     UA bromoalkane "    "    "
+421  -2.000     0.700     3.000     0.0        C2-C2-C2-F      UA fluoroalkane "    "    "
+421  -2.000     0.700     3.000     0.0        C3-C2-C2-F      UA fluoroalkane "    "    "
+499
+500   0.0       0.0       0.0       20.        Harmonic Restraint - Do Not Remove.
